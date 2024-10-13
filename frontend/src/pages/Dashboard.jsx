@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useAuth } from "../context/AuthProvider";
 import Sidebar from "../dashboard/Sidebar";
 import MyProfile from "../dashboard/MyProfile";
-import MyBlogs from "../dashboard/MyBlogs.jsx";
+
 import CreateBlog from "../dashboard/CreateBlog";
 import UpdateBlog from "../dashboard/UpdateBlog";
 import { Navigate } from "react-router-dom";
@@ -25,9 +25,7 @@ function Dashboard() {
           <CreateBlog />
         ) : component === "Update Blog" ? (
           <UpdateBlog />
-        ) : (
-          <MyBlogs />
-        )}
+        ) :}
       </div>
     </div>
   );
