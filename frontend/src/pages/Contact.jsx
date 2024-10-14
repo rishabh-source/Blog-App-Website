@@ -107,7 +107,7 @@ function Contact() {
                 </li>
                 <li className="flex items-center space-x-2">
                   <FaMapMarkerAlt className="text-green-500" />
-                  <span>Delhi, NCR, India</span>
+                  <span>Jabalpur, M.P, India</span>
                 </li>
               </ul>
             </div>
